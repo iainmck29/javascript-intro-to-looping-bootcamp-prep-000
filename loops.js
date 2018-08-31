@@ -25,10 +25,10 @@ function incrementVariable() {
 
 function doWhileLoop(array) {
   do {
-    array.slice(0, array.length - i)
+    array.pop(0, array.length - i)
   }
   while (
-    array.length >= 0 && incrementVariable())
-    return 'done'
+    array.length > 0 && incrementVariable())
+    return array
   
 }
