@@ -25,6 +25,6 @@ function incrementVariable() {
 
 function doWhileLoop(array) {
   do {
-    array.slice(0, length)
+    array.slice(0, array.length - 1)
   }
 }
