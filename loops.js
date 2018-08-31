@@ -28,7 +28,7 @@ function doWhileLoop(array) {
     array.slice(0, array.length - i)
   }
   while (
-    array.length > 0 && incrementVariable())
+    array.length >= 0 && incrementVariable())
     return array
   
 }
